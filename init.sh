@@ -18,13 +18,10 @@ conda create -y -n tf python=3.4
 echo 'alias activate="source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/activate"' >> ~/.bashrc
 echo 'alias deactivate="source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/deactivate"' >> ~/.bashrc
 
-$PYENV_ROOT/versions/miniconda3-4.0.5/bin/activate tf
 conda install -y -c jjhelmus tensorflow=0.8.0rc0
 conda install -y jupyter pandas seaborn scikit-learn
 pip install pandas_ml
-$PYENV_ROOT/versions/miniconda3-4.0.5/bin/deactivate
 
-conda install -y jupyter
 jupyter notebook --generate-config
 
 echo 'c.NotebookApp.ip = "*"' >> ~/.jupyter/jupyter_notebook_config.py
