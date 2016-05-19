@@ -1,3 +1,4 @@
+cd ~/workspace/
 mkdir ~/workspace/jupyter
 
 git clone https://github.com/yyuu/pyenv.git ~/workspace/.pyenv
@@ -48,4 +49,5 @@ python setup.py install
 pip install jupyter_cms
 jupyter cms quick-setup --sys-prefix
 
+cd ~/workspace/
 python genPass.py
