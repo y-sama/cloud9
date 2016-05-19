@@ -1,5 +1,7 @@
 # cloud9 for tensorflow
 
+https://c9.io/
+
 チュートリアルやハンズオンを想定した、tensorflowのお試し用のcloud9環境です。  
 主に、Jupyter, Scikit-learn, tensorflowが使えるようにしています。
 
