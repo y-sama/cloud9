@@ -2,6 +2,8 @@
 
 https://c9.io/
 
+[Cloud9で簡単Jupyter環境構築](http://qiita.com/y__sama/items/58419e85f39265fe6df8)の更なる簡略版です。
+
 チュートリアルやハンズオンを想定した、tensorflowのお試し用のcloud9環境です。  
 主に、Jupyter, Scikit-learn, tensorflowが使えるようにしています。
 
