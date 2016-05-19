@@ -2,14 +2,19 @@ git clone https://github.com/yyuu/pyenv.git ~/workspace/.pyenv
 echo 'export PYENV_ROOT="$HOME/workspace/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-source ~/.bashrc
+
+export PYENV_ROOT="$HOME/workspace/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 pyenv install miniconda3-4.0.5
 pyenv rehash
 pyenv global miniconda3-4.0.5 
 conda update conda
 conda create -y -n tf python=3.4
 echo 'alias activate="source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/activate"' >> ~/.bashrc
-source ~/.bashrc
+alias activate="source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/activate"
+
 activate tf
 conda install -y -c jjhelmus tensorflow=0.8.0rc0
 conda install -y jupyter pandas seaborn scikit-learn
