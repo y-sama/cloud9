@@ -45,5 +45,4 @@ python setup.py install
 pip install jupyter_cms
 jupyter cms quick-setup --sys-prefix
 
-cd ~/workspace/
-python genPass.py
+python ~/workspace/cloud9/genPass.py
