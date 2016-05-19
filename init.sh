@@ -1,3 +1,5 @@
+mkdir ~/workspace/jupyter
+
 git clone https://github.com/yyuu/pyenv.git ~/workspace/.pyenv
 echo 'export PYENV_ROOT="$HOME/workspace/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
@@ -44,5 +46,4 @@ python setup.py install
 pip install jupyter_cms
 jupyter cms quick-setup --sys-prefix
 
-mkdir ~/workspace/jupyter
-
+python genPass.py
