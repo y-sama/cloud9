@@ -13,8 +13,8 @@ git clone https://github.com/y-sama/cloud9.git
 bash cloud9/init.sh
 ```
 
-最後にJupyterのパスワードを設定するので、適当なパスワードを入れてください。　　
-cloud9フォルダ内にRunJupyter.shがあるので、cloud9でrunするとJupyterが動きます。　　
+最後にJupyterのパスワードを設定するので、適当なパスワードを入れてください。  
+cloud9フォルダ内にRunJupyter.shがあるので、cloud9でrunするとJupyterが動きます。  
 `https://<workspace>.<user>.c9users.io`にアクセスするとJupyterに入れます。
 
 Jupyterで使えるパッケージは以下です。  
