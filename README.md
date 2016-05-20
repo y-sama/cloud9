@@ -19,6 +19,9 @@ bash cloud9/init.sh
 cloud9フォルダ内にRunJupyter.shがあるので、cloud9でrunするとJupyterが動きます。  
 `https://<workspace>.<user>.c9users.io`にアクセスするとJupyterに入れます。
 
+> 現在IPython-notebook-extensionsがうまくインストールされません。
+> インストールする場合は新しい端末を立ち上げて`cd ~/workspace/extension/IPython-notebook-extensions;python setup.py install`を実行してみてください。
+
 Jupyterで使えるパッケージは以下です。  
 numpyもMKL版です。
 
