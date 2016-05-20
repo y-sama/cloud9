@@ -38,7 +38,10 @@ jupyter cms quick-setup --sys-prefix
 
 mkdir ~/workspace/extension
 cd ~/workspace/extension
-pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
+#pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
+git clone https://github.com/ipython-contrib/IPython-notebook-extensions.git
+cd IPython-notebook-extensions;python setup.py install
+cd ../
 git clone https://github.com/damianavila/RISE
 cd RISE;python setup.py install
 
