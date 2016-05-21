@@ -16,7 +16,7 @@ conda create -y -n tf python=3.5
 source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/activate tf
 conda install -y -c jjhelmus tensorflow=0.8.0rc0
 conda install -y jupyter pandas seaborn scikit-learn
-conda install -c creditx xgboost=0.47
+conda install -y -c creditx xgboost=0.47
 conda install -y -c y__sama  pandas_ml
 source $PYENV_ROOT/versions/miniconda3-4.0.5/bin/deactivate
 
