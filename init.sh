@@ -2,6 +2,7 @@ cd ~/workspace/
 mkdir ~/workspace/jupyter
 
 git clone https://github.com/yyuu/pyenv.git ~/workspace/.pyenv
+git clone https://github.com/yyuu/pyenv-update.git ~/workspace/.pyenv/plugins/pyenv-update
 
 export PYENV_ROOT="$HOME/workspace/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
